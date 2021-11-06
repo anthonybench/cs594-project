@@ -1,0 +1,25 @@
+{
+  "name": "cs594-project",
+  "version": "1.0.0",
+  "description": "Internetworking Protocols Term Project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonybench/cs594-project.git"
+  },
+  "author": "Isaac Yep",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anthonybench/cs594-project/issues"
+  },
+  "homepage": "https://github.com/anthonybench/cs594-project#readme",
+  "dependencies": {
+    "discord.js": "^13.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.1.0"
+  }
+}
