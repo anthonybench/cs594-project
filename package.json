@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/anthonybench/cs594-project#readme",
   "dependencies": {
-    "discord.js": "^13.2.0",
+    "discord.js": "^13.3.1",
     "dotenv": "^10.0.0"
   },
   "devDependencies": {
