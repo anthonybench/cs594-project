@@ -105,6 +105,7 @@ dist
 
 # Personal notes
 notes.txt
+demo-script.md
 
 # Bot Secrets
 config.json
