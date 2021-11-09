@@ -21,7 +21,7 @@ As per my agreement and approval from the instructor, **Dr. Nirupama Bulusu**, t
 - [X] Bot can join multiple channels
 - [ ] Bot can send distinct messages to multiple selected channels
 - [ ] Bot can disconnect from server
-- [ ] Bot can kick users
+- [X] Bot can kick users
 - [ ] Bot can gracefully handle mis-use from users
 - [ ] Bot can gracefully handle bot-server-crashes
 - [X] Programming Style
