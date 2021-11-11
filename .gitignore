@@ -109,6 +109,7 @@ demo-script.md
 
 # Bot Secrets
 config.json
+config.yaml
 
 # Succinctify re-running
 run.sh
