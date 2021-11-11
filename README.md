@@ -12,7 +12,7 @@ As per my agreement and approval from the instructor, **Dr. Nirupama Bulusu**, t
 
 - [X] Bot can connect to server
 - [ ] Bot can create a channel
-- [ ] Bot can list all channels
+- [X] Bot can list all channels
 - [X] Bot can join a channel
 - [X] Bot can leave a channel
 - [ ] Bot can list members of channel
