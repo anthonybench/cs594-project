@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 from discord import Client
-from json import load;
+from json import load
 
 with open("config.json", "r") as json_file:
   secrets = load(json_file)
