@@ -47,7 +47,33 @@ As per my agreement and approval from the instructor, **Dr. Nirupama Bulusu**, t
 ### Get Started 🚀
 <hr>
 
-~ooo~
+You may fetch the dependencies (enumerated in the dependencies section) with:
+```bash
+npm install
+```
+as well as
+```bash
+# Linux/macOS
+python3 -m pip install -U discord.py
+
+# Windows
+py -3 -m pip install -U discord.py
+```
+
+To run the the Javascript supported features, you may launch the node server application with:
+```bash
+node ./deploy-commands.js;
+wait;
+node ./index.js
+```
+And visit the Discord Server *`Isaac Yep`* (by invitation only) to interact with it's client-server features powered by the JS API.
+
+To interact with the python API features, simply run (there are `zsh` shell for each pythons file) the file name for each feature you want to turn a listener on for. \
+Example:
+```bash
+./python-functions/list-channels.py
+```
+
 
 <br />
 
@@ -61,23 +87,26 @@ As per my agreement and approval from the instructor, **Dr. Nirupama Bulusu**, t
 ### Technologies 🧰
 <hr>
 
-  - [flip.js](https://google.com)
-  - [flop.js](https://google.com)
-  - [flap.js](https://google.com)
+  - [@discordjs/builders: ^0.8.2](https://www.npmjs.com/package/@discordjs/builders)
+  - [@discordjs/rest": ^0.1.0-canary.0](https://www.npmjs.com/package/@discordjs/rest)
+  - [discord-api-types](https://www.npmjs.com/package/discord-api-types)
+  - [discord.js: ^13.3.1](https://discord.js.org/#/docs/main/stable/general/welcome)
+  - [dotenv: ^10.0.0](https://www.npmjs.com/package/dotenv)
 
 <br />
 
 ### Contribute 🤝
 <hr>
 
-~ooo~
+There is no interest from the author to recieve/review PR's for this project at this time. \
+This repository purley serves as a school project.
 
 <br />
 
 ### Acknowledgements 💙
 <hr>
 
-~ooo~
+I'd like to thank ***Dr. Nirupama Bulusu*** for providing such an excellent ***Internetworking Protocols*** class at *Portland State University*!
 
 <br />
 
@@ -88,10 +117,12 @@ As per my agreement and approval from the instructor, **Dr. Nirupama Bulusu**, t
 
 <!-- badge cluster -->
 
-[~ooo~](https://shields.io/)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/anthonybench/cs594-project)
+![GitHub repo size](https://img.shields.io/github/repo-size/anthonybench/cs594-project)
+![GitHub](https://img.shields.io/github/license/anthonybench/cs594-project)
 
 <!-- / -->
-See [License](https://google.com) for the full license text.
+See [License](https://opensource.org/licenses/MIT) for the full license text.
 
 This repository was authored by *Isaac Yep*.
 
