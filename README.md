@@ -74,7 +74,6 @@ Example:
 ./python-functions/list-channels.py
 ```
 
-
 <br />
 
 ### Usage ⚙
