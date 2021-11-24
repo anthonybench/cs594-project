@@ -113,3 +113,6 @@ config.yaml
 
 # Succinctify re-running
 run.sh
+
+# Command Templating
+Templates/
