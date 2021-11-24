@@ -15,7 +15,7 @@ As per my agreement and approval from the instructor, **Dr. Nirupama Bulusu**, t
 - [X] Bot can list all channels
 - [X] Bot can join a channel
 - [X] Bot can leave a channel
-- [ ] Bot can list members of channel
+- [X] Bot can list members of channel
 - [ ] Multiple bots can connect to a server
 - [ ] Bot can send messages to a room
 - [X] Bot can join multiple channels
