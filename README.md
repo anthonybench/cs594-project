@@ -25,7 +25,7 @@ As per my agreement and approval from the instructor, **Dr. Nirupama Bulusu**, t
 - [X] Bot can gracefully handle mis-use from users
 - [X] Bot can gracefully handle bot-server-crashes
 - [X] Programming Style (*Proofread three times*)
-- [ ] Bot can DM users 🔥 ***Extra Credit***
+- [X] Bot can DM users 🔥 ***Extra Credit***
 - [ ] Bot can deliver files 🔥 ***Extra Credit***
 - [ ] Cloud Connected Server 🔥 ***Extra Credit***
 
