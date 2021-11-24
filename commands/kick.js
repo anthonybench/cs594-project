@@ -1,5 +1,7 @@
+//---Dependencies-------------
 const { SlashCommandBuilder } = require('@discordjs/builders');
 
+//---Execution----------------
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('kick')
