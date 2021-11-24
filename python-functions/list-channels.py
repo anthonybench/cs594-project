@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 #
-# List channel/guild members
+# List channels in guild
 #
 
 #---Dependencies-------------
