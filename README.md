@@ -17,9 +17,9 @@ As per my agreement and approval from the instructor, **Dr. Nirupama Bulusu**, t
 - [X] Bot can leave a channel
 - [X] Bot can list members of channel
 - [ ] Multiple bots can connect to a server
-- [ ] Bot can send messages to a room
+- [X] Bot can send messages to a room
 - [X] Bot can join multiple channels
-- [ ] Bot can send distinct messages to multiple selected channels
+- [X] Bot can send distinct messages to multiple selected channels
 - [X] Bot can disconnect from server
 - [X] Bot can kick users
 - [X] Bot can gracefully handle mis-use from users
