@@ -11,7 +11,7 @@ This project, for CS-594 Internetworking Protocols at Portland State University 
 As per my agreement and approval from the instructor, **Dr. Nirupama Bulusu**, the following list enumerates the 18 promised features of the application (with the extra credit features):
 
 - [X] Bot can connect to server
-- [ ] Bot can create a channel
+- [X] Bot can create a channel
 - [X] Bot can list all channels
 - [X] Bot can join a channel
 - [X] Bot can leave a channel
