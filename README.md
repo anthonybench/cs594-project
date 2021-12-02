@@ -27,7 +27,6 @@ As per my agreement and approval from the instructor, **Dr. Nirupama Bulusu**, t
 - [X] Programming Style (*Proofread three times*)
 - [X] Bot can DM users 🔥 ***Extra Credit***
 - [X] Bot can deliver files 🔥 ***Extra Credit***
-- [ ] Cloud Connected Server 🔥 ***Extra Credit***
 
 <br />
 
