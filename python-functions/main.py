@@ -33,6 +33,10 @@ with open("config.json", "r") as json_file:
         await features.listMembers(client)
       elif "message-channels" in message.content:
         await features.messageChannels(client, message)
+      elif "/logout" in message.content:
+        await features.logOut(message)
+        await client.close()
+        return
       else:
         print("Command not recognized.")
 

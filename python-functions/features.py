@@ -63,3 +63,7 @@ async def messageChannels(client, message):
       print(channel.name)
       await channel.send(content="Messaging distinct channel! Beeop boop!")
       print('='*3)
+
+
+async def logOut(message):
+  await message.channel.send(content="Signing off!")
