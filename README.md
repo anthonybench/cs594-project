@@ -177,7 +177,7 @@ Example:
   </summary>
 
   `./python-functions/main.py` \
-  `>> message-channels <channels>` \
+  `>> message-channels <channels>`
 </details>
 
 <!-- 11 -->
@@ -198,6 +198,7 @@ Example:
   ✅ Bot can kick users
   </summary>
 
+  `node index.js`
   `>> /kick @USER_NAME` will remove the user from the guild (server).
 </details>
 
@@ -207,6 +208,7 @@ Example:
   ✅ Bot can gracefully handle mis-use from users
   </summary>
 
+  `node index.js`
   `>> /kick @floopyflop` \
   --> try using bad bot token \
   *bot will handle http errors in a multitude of wasy, and display helpful info per mis-use/error of user*
