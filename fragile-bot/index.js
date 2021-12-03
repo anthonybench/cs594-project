@@ -35,6 +35,10 @@ client.on('guildUnavailable', () => {
 	console.log("Exiting, ever so gracefully...");
 	client.destroy();
 })
+client.on('shardError', (error, shardId) => {
+	console.log(`Error! ${error.code}. Websocket disruption with shard: ${shardId}`);
+	client.destroy();
+})
 client.on('interactionCreate', async interaction => {
 	if (!interaction.isCommand()) return;
 

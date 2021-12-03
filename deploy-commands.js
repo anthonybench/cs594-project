@@ -35,6 +35,14 @@ rest.put(Routes.applicationGuildCommands(clientId, guildId), { body: commands })
 			console.log(`Bot Application must interact with endpoint ${error.url} via PUT method.`);
 		}
 
+		// check application error codes
+		let errcode = parseInt(error.code);
+		if (errcode == 50035) {
+			console.log("Invalid form body submitted; bad client-id (applicationo-id) or guild-id (server-id).");
+		} else if (errcode == 0) {
+			console.log("Unauthorized; bad token.")
+		}
+
 		// check http status code, and return appropriate message
 		let statcode = parseInt(error.status);
 		if (statcode < 200 ) {
