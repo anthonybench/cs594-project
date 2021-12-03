@@ -8,7 +8,7 @@
 
 This project, for CS-594 Internetworking Protocols at Portland State University for fall-2021 focuses on the networking aspects of chat applications, through the development of a Discord chat bot!
 
-As per my agreement and approval from the instructor, **Dr. Nirupama Bulusu**, the following list enumerates the 18 promised features of the application (with the extra credit features):
+As per my agreement and approval from the instructor, **Dr. Nirupama Bulusu**, the following list enumerates the 17 promised features/requirements of the application (with the extra credit features):
 
 - [X] Bot can connect to server
 - [X] Bot can create a channel
@@ -83,7 +83,7 @@ Example:
   ✅ Bot can connect to server
   </summary>
 
-  `./python-functions/main.py`
+  `./python-functions/main.py` \
   `node index.js`
 </details>
 
@@ -93,7 +93,7 @@ Example:
   ✅ Bot can create a channel
   </summary>
 
-  `./python-functions/create-channel.py`
+  `./python-functions/create-channel.py` \
   `>> create-channel <channel_to_clone> <new_channel_name>`
 </details>
 
@@ -103,7 +103,7 @@ Example:
   ✅ Bot can list all channels
   </summary>
 
-  `./python-functions/list-channels.`
+  `./python-functions/list-channels.` \
   `>> list-channels`
 </details>
 
@@ -113,8 +113,8 @@ Example:
   ✅ Bot can join a channel
   </summary>
 
-  `./python-functions/main.py`
-  `node index.js`
+  `./python-functions/main.py` \
+  `node index.js` \
   *Setting the appropriate permssions in the invite link.*
 </details>
 
@@ -124,8 +124,8 @@ Example:
   ✅ Bot can leave a channel
   </summary>
 
-  `python-functions/main.py`
-  `>> /logout`
+  `python-functions/main.py` \
+  `>> /logout` \
   *Setting the appropriate permssions in the invite link. Also can be kicked.*
 </details>
 
@@ -135,7 +135,7 @@ Example:
   ✅ Bot can list members of channel
   </summary>
 
-  `./python-functions/list-members.py`
+  `./python-functions/list-members.py` \
   `>> list-members`
 </details>
 
@@ -145,9 +145,9 @@ Example:
   ✅ Multiple bots can connect to a server
   </summary>
 
-  `./python-functions/list-members.py`
-  `./second-bot/dm-user.py` (another shell)
-  `>> list-members`
+  `./python-functions/list-members.py` \
+  `./second-bot/dm-user.py` (another shell) \
+  `>> list-members` \
   `>> dm-user`
 </details>
 
@@ -157,8 +157,8 @@ Example:
   ✅ Bot can send messages to a room
   </summary>
 
-  `./python-functions/message-channels.py`
-  `>> message-channels <channels>`
+  `./python-functions/message-channels.py` \
+  `>> message-channels <channels>` \
 </details>
 
 <!-- 9 -->
@@ -176,8 +176,8 @@ Example:
   ✅ Bot can send distinct messages to multiple selected channels
   </summary>
 
-  `./python-functions/message-channels.py`
-  `>> message-channels <channels>`
+  `./python-functions/message-channels.py` \
+  `>> message-channels <channels>` \
 </details>
 
 <!-- 11 -->
@@ -186,10 +186,10 @@ Example:
   ✅ Bot can disconnect from server
   </summary>
 
-  `python-functions/main.py`
-  `>> /logout`
-  *Setting the appropriate permssions in the invite link. Also can be kicked.*
-  *Also through error handling, in crash or disconnection events.*
+  `python-functions/main.py` \
+  `>> /logout` \
+  *Setting the appropriate permssions in the invite link. Also can be kicked.* \
+  *Also through error handling, in crash or disconnection events.* \
 </details>
 
 <!-- 12 -->
@@ -207,8 +207,8 @@ Example:
   ✅ Bot can gracefully handle mis-use from users
   </summary>
 
-  `>> /kick @floopyflop`
-  --> try using bad bot token
+  `>> /kick @floopyflop` \
+  --> try using bad bot token \
   *bot will handle http errors in a multitude of wasy, and display helpful info per mis-use/error of user*
 </details>
 
@@ -218,11 +218,11 @@ Example:
   ✅ Bot can gracefully handle bot-server-crashes
   </summary>
 
-  --> create new server
-  --> server id
-  --> authenticate with https://discord.com/api/oauth2/authorize?client_id=916175763621965885&permissions=8&scope=bot%20applications.commands
-  --> set new guild-id, and login
-  --> crash (destroy) the server with bot logged in.
+  --> create new server \
+  --> server id \
+  --> authenticate with https://discord.com/api/oauth2/authorize?client_id=916175763621965885&permissions=8&scope=bot%20applications.commands \
+  --> set new guild-id, and login \
+  --> crash (destroy) the server with bot logged in. \
   *bot will catch the error event and exit gracefully*
 </details>
 
@@ -241,7 +241,7 @@ Example:
   ✅ Bot can DM users 🔥 ***Extra Credit***
   </summary>
 
-  `./python-functions/dm-user.py`
+  `./python-functions/dm-user.py` \
   `>> dm-me`
 </details>
 
@@ -251,7 +251,7 @@ Example:
   ✅ Bot can deliver files 🔥 ***Extra Credit***
   </summary>
 
-  `./python-functions/deliver-file.py`
+  `./python-functions/deliver-file.py` \
   `>> deliver-file`
 </details>
 
