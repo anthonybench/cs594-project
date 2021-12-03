@@ -29,15 +29,18 @@ client.on('guildDelete', () => {
 	console.log("Error! Server has been destroyed!");
 	console.log("Exiting, ever so gracefully...");
 	client.destroy();
+	return 10004;
 })
 client.on('guildUnavailable', () => {
 	console.log("Error! Server has crashed!");
 	console.log("Exiting, ever so gracefully...");
 	client.destroy();
+	return 10004; // bad data body error-code
 })
 client.on('shardError', (error, shardId) => {
 	console.log(`Error! ${error.code}. Websocket disruption with shard: ${shardId}`);
 	client.destroy();
+	return 4010; // websocket shard failure error-code
 })
 client.on('interactionCreate', async interaction => {
 	if (!interaction.isCommand()) return;

@@ -41,7 +41,14 @@ rest.put(Routes.applicationGuildCommands(clientId, guildId), { body: commands })
 			console.log("Invalid form body submitted; bad client-id (applicationo-id) or guild-id (server-id).");
 		} else if (errcode == 0) {
 			console.log("Unauthorized; bad token.")
+		} else if (errcode == 10001) {
+			console.log("Unknown account.")
+		} else if (errcode == 10004) {
+			console.log("Unknown server (guild).")
+		} else if (errcode == 4010) {
+			console.log("Websocket shard failure; bad connection.")
 		}
+		
 
 		// check http status code, and return appropriate message
 		let statcode = parseInt(error.status);
@@ -67,6 +74,6 @@ rest.put(Routes.applicationGuildCommands(clientId, guildId), { body: commands })
 			console.log("This error response is given when the server is acting as a gateway and cannot get a response in time.")
 		}
 
-		return;
+		return `HTTP Status Code: ${statcode}, Application Error Code: ${errcode}`;
 	})
 	// .catch(console.error); // for demonstration purposes
