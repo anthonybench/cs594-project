@@ -41,4 +41,4 @@ client.on('interactionCreate', async interaction => {
 });
 
 // Login
-client.login(token);
+client.login(token).catch(console.error);

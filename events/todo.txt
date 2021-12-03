@@ -1,4 +1,0 @@
-This folder is currently not used, but this project could be refactored to orginize events, similar to how commands are orginized.
-
-Ref:
-https://discordjs.guide/creating-your-bot/event-handling.html#individual-event-files
