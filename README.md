@@ -93,7 +93,7 @@ Example:
   ✅ Bot can create a channel
   </summary>
 
-  `./python-functions/create-channel.py` \
+  `./python-functions/main.py` \
   `>> create-channel <channel_to_clone> <new_channel_name>`
 </details>
 
@@ -103,7 +103,7 @@ Example:
   ✅ Bot can list all channels
   </summary>
 
-  `./python-functions/list-channels.` \
+  `./python-functions/main.py` \
   `>> list-channels`
 </details>
 
@@ -135,7 +135,7 @@ Example:
   ✅ Bot can list members of channel
   </summary>
 
-  `./python-functions/list-members.py` \
+  `./python-functions/main.py` \
   `>> list-members`
 </details>
 
@@ -145,7 +145,7 @@ Example:
   ✅ Multiple bots can connect to a server
   </summary>
 
-  `./python-functions/list-members.py` \
+  `./python-functions/main.py` \
   `./second-bot/dm-user.py` (another shell) \
   `>> list-members` \
   `>> dm-user`
@@ -157,7 +157,7 @@ Example:
   ✅ Bot can send messages to a room
   </summary>
 
-  `./python-functions/message-channels.py` \
+  `./python-functions/main.py` \
   `>> message-channels <channels>` \
 </details>
 
@@ -176,7 +176,7 @@ Example:
   ✅ Bot can send distinct messages to multiple selected channels
   </summary>
 
-  `./python-functions/message-channels.py` \
+  `./python-functions/main.py` \
   `>> message-channels <channels>` \
 </details>
 
@@ -241,7 +241,7 @@ Example:
   ✅ Bot can DM users 🔥 ***Extra Credit***
   </summary>
 
-  `./python-functions/dm-user.py` \
+  `./python-functions/main.py` \
   `>> dm-me`
 </details>
 
@@ -251,7 +251,7 @@ Example:
   ✅ Bot can deliver files 🔥 ***Extra Credit***
   </summary>
 
-  `./python-functions/deliver-file.py` \
+  `./python-functions/main.py` \
   `>> deliver-file`
 </details>
 
