@@ -31,7 +31,7 @@ rest.put(Routes.applicationGuildCommands(clientId, guildId), { body: commands })
 		console.log(`API Endpoint:          | ${error.url}`);
 
 		// check appropriate http method for endpoint
-		if (error.method.toUpperCase != 'PUT') {
+		if (error.method.toUpperCase() != 'PUT') {
 			console.log(`Bot Application must interact with endpoint ${error.url} via PUT method.`);
 		}
 
