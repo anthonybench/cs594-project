@@ -1,11 +1,12 @@
 #!/usr/bin/env python
 
 #
-# Send message to one or more distinct channels
+# Creates a channel, with characteristics/settings of a given channel.
 #
 
 #---Dependencies-------------
 from discord import Client, Intents
+import features
 from json import load
 
 #---Parameters---------------
@@ -21,17 +22,22 @@ with open("config.json", "r") as json_file:
     async def on_message(self, message):
       print('Message from {0.author}: {0.content}'.format(message))
 
-      if "message-channels" in message.content:
-        # res = [i for i in client.get_all_channels() if i.type == 'text']
-        res = [i for i in client.get_all_channels() if str(i.type) == 'text']
+      if "create-channel" in message.content:
+        res = client.get_all_channels()
+        argv = message.content.split(' ')
         for channel in res:
-          if channel.name in message.content:
+          if len(argv) < 3:
+            return
+          elif str(channel.type) == 'text' and channel.name == argv[1]:
             print('='*3)
-            print(channel.name)
-            await channel.send(content="Messaging distinct channel! Beeop boop!")
+            await channel.clone(name=argv[2])
+            print("Channel created!")
             print('='*3)
       else:
         print("Command not recognized.")
 
   client = MyClient(intents=intents)
-  client.run(secrets['token'])
+  try:
+    client.run(secrets['token'])
+  except:
+    print('Error: 401 Unauthorized.\nInvalid user token.')
