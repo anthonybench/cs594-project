@@ -25,6 +25,16 @@ client.once('ready', () => {
 });
 
 // Handlers
+client.on('guildDelete', () => {
+	console.log("Error! Server has been destroyed!");
+	console.log("Exiting, ever so gracefully...");
+	client.destroy();
+})
+client.on('guildUnavailable', () => {
+	console.log("Error! Server has crashed!");
+	console.log("Exiting, ever so gracefully...");
+	client.destroy();
+})
 client.on('interactionCreate', async interaction => {
 	if (!interaction.isCommand()) return;
 
