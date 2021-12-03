@@ -116,3 +116,6 @@ run.sh
 
 # Command Templating
 Templates/
+
+# Python Moduling
+__pycache__
