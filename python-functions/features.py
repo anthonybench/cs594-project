@@ -64,6 +64,8 @@ async def messageChannels(client, message):
       await channel.send(content="Messaging distinct channel! Beeop boop!")
       print('='*3)
 
-
+#
+# Logs out, closes client session gracefully
+#
 async def logOut(message):
   await message.channel.send(content="Signing off!")
