@@ -78,7 +78,182 @@ Example:
 ### Usage ⚙
 <hr>
 
-~ooo~
+<details>
+  <summary>
+  ✅ Bot can connect to server
+  </summary>
+
+  `./python-functions/main.py`
+  `node index.js`
+</details>
+
+<!-- 2 -->
+<details>
+  <summary>
+  ✅ Bot can create a channel
+  </summary>
+
+  `./python-functions/create-channel.py`
+  `>> create-channel <channel_to_clone> <new_channel_name>`
+</details>
+
+<!-- 3 -->
+<details>
+  <summary>
+  ✅ Bot can list all channels
+  </summary>
+
+  `./python-functions/list-channels.`
+  `>> list-channels`
+</details>
+
+<!-- 4 -->
+<details>
+  <summary>
+  ✅ Bot can join a channel
+  </summary>
+
+  `./python-functions/main.py`
+  `node index.js`
+  *Setting the appropriate permssions in the invite link.*
+</details>
+
+<!-- 5 -->
+<details>
+  <summary>
+  ✅ Bot can leave a channel
+  </summary>
+
+  `python-functions/main.py`
+  `>> /logout`
+  *Setting the appropriate permssions in the invite link. Also can be kicked.*
+</details>
+
+<!-- 6 -->
+<details>
+  <summary>
+  ✅ Bot can list members of channel
+  </summary>
+
+  `./python-functions/list-members.py`
+  `>> list-members`
+</details>
+
+<!-- 7 -->
+<details>
+  <summary>
+  ✅ Multiple bots can connect to a server
+  </summary>
+
+  `./python-functions/list-members.py`
+  `./second-bot/dm-user.py` (another shell)
+  `>> list-members`
+  `>> dm-user`
+</details>
+
+<!-- 8 -->
+<details>
+  <summary>
+  ✅ Bot can send messages to a room
+  </summary>
+
+  `./python-functions/message-channels.py`
+  `>> message-channels <channels>`
+</details>
+
+<!-- 9 -->
+<details>
+  <summary>
+  ✅ Bot can join multiple channels
+  </summary>
+
+  *Bot invite link is built with calculated permission code (can monitor any channel)*
+</details>
+
+<!-- 10 -->
+<details>
+  <summary>
+  ✅ Bot can send distinct messages to multiple selected channels
+  </summary>
+
+  `./python-functions/message-channels.py`
+  `>> message-channels <channels>`
+</details>
+
+<!-- 11 -->
+<details>
+  <summary>
+  ✅ Bot can disconnect from server
+  </summary>
+
+  `python-functions/main.py`
+  `>> /logout`
+  *Setting the appropriate permssions in the invite link. Also can be kicked.*
+  *Also through error handling, in crash or disconnection events.*
+</details>
+
+<!-- 12 -->
+<details>
+  <summary>
+  ✅ Bot can kick users
+  </summary>
+
+  `>> /kick @USER_NAME` will remove the user from the guild (server).
+</details>
+
+<!-- 13 -->
+<details>
+  <summary>
+  ✅ Bot can gracefully handle mis-use from users
+  </summary>
+
+  `>> /kick @floopyflop`
+  --> try using bad bot token
+  *bot will handle http errors in a multitude of wasy, and display helpful info per mis-use/error of user*
+</details>
+
+<!-- 14 -->
+<details>
+  <summary>
+  ✅ Bot can gracefully handle bot-server-crashes
+  </summary>
+
+  --> create new server
+  --> server id
+  --> authenticate with https://discord.com/api/oauth2/authorize?client_id=916175763621965885&permissions=8&scope=bot%20applications.commands
+  --> set new guild-id, and login
+  --> crash (destroy) the server with bot logged in.
+  *bot will catch the error event and exit gracefully*
+</details>
+
+<!-- 15 -->
+<details>
+  <summary>
+  ✅ Programming Style
+  </summary>
+
+  Developed with eslint, follows consistant style, proofread 4 times after testing.
+</details>
+
+<!-- 16 -->
+<details>
+  <summary>
+  ✅ Bot can DM users 🔥 ***Extra Credit***
+  </summary>
+
+  `./python-functions/dm-user.py`
+  `>> dm-me`
+</details>
+
+<!-- 17 -->
+<details>
+  <summary>
+  ✅ Bot can deliver files 🔥 ***Extra Credit***
+  </summary>
+
+  `./python-functions/deliver-file.py`
+  `>> deliver-file`
+</details>
 
 <br />
 
